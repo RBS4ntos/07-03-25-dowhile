@@ -1,0 +1,36 @@
+<!-- linha abaixo define documento como html -->
+<!DOCTYPE html>
+<!-- linha abaixo define idioma como inglês -->
+<html lang="en">
+<!-- linha abaixo abre a tag "head" -->
+<head>
+    <!-- linha abaixo define a tag "meta" com o atributo charset, que define o tipo de caracter da página para UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- linha abaixo define a tag "meta" com atributos de: name para definir visualizção da tela e content para definir o valor da visualização, sendo a largura igual a largura do dispositivo e deixando a escala inicial como 1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linha abaixo define nome do documento -->
+    <title>Do While</title>
+    <!-- linha abaixo coloca link para o css -->
+    <link rel="stylesheet" href="./estilos.css">
+<!-- linha abaixo fecha a tag "head" -->
+</head>
+<!-- linha abaixo abre a tag "body" -->
+<body>
+    <!-- linha abaixo cria tag para rótulo da checkbox-->
+    <label for="cbxMarcarTempo" class="vermelho">Marcar tempo?</label>
+    <!-- linha abaixo cria checkbox para exibir ou não o tempo na página -->
+    <input type="checkbox" id="cbxMarcarTempo" />
+    <!-- linha abaixo insere um quebra linha -->
+    <br />
+    <!-- linha abaixo insere elemento horas sem prejudicar texto e outros elementos da página -->
+    <div id="div_horas"></div>
+    <!-- linha abaixo insere elemento minutos sem prejudicar texto e outros elementos da página -->
+    <div id="div_minutos"></div>
+    <!-- linha abaixo insere elemento segundos sem prejudicar texto e outros elementos da página -->
+    <div id="div_segundos"></div>
+    <!-- linha abaixo busca arquivo dowhile.js para ser executado na página -->
+    <script src="./dowhile.js"></script>
+<!-- linha abaixo fecha a tag "body" -->
+</body>
+<!-- linha abaixo fecha a tag "html" -->
+</html>

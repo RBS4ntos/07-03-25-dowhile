@@ -1,0 +1,19 @@
+div{
+    display: inline-flex;
+}
+
+#div_horas{
+    color:black
+}
+
+#div_minutos{
+    color:black
+}
+
+#div_segundos{
+    color:black
+}
+
+.vermelho{
+    color:red
+}
